@@ -20,9 +20,26 @@ mydata = {
         "businessman"
     ]
 }
+new_member={
+    "name":'Dr.Haathi',
+    "age":'45' ,
+    "job":'Doctor'
+}
+new_member2={
+    "name":'Iyer',
+    "age":'39' ,
+    "job":'scientist'
+}
+new_member3={
+    "name":'roshan sodhi',
+    "age":'32' ,
+    "job":'mechanic'
+}
 
 df = pd.DataFrame(mydata)
-
+df.loc[len(df.index)] = new_member
+df.loc[len(df.index)] = new_member2
+df.loc[len(df.index)] = new_member3
 data_dir = "data"
 os.makedirs(data_dir, exist_ok=True)
 
