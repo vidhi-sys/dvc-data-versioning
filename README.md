@@ -162,14 +162,6 @@ DVC detected the change and created a new dataset version.
 
 ---
 
-## Resume Highlights
-
-* Implemented data versioning using DVC and Git for reproducible dataset management.
-* Built a Python-based data generation pipeline using Pandas.
-* Configured DVC remote storage and tracked dataset evolution across multiple versions.
-* Practiced industry-standard MLOps workflows involving dataset tracking, version control, and reproducibility.
-
----
 
 ## Future Improvements
 
